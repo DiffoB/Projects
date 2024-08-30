@@ -62,7 +62,7 @@ for i, job_title in enumerate(job_titles):
     
 ```
 ### Results
-![Visualization of Top Skills for Data Nerds](Analysis_of_Data_Roles\Plots\1_Likelikhood_of_skills_requested.png)
+![Visualization of Top Skills for Data Nerds](Plots\1_Likelikhood_of_skills_requested.png)
 
 
 ### Insights
@@ -94,7 +94,7 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals = 0))
 
 ```
 ### Results
-![Trending Top Skills for Data Analysts in the US](Analysis_of_Data_Roles\Plots\2_Skill_Trend_over_months.png)
+![Trending Top Skills for Data Analysts in the US](Plots\2_Skill_Trend_over_months.png)
 
 
 ### Insights
@@ -132,7 +132,7 @@ plt.show()
 ```
 
 ### Results
-![Salary Distributions of Data Jobs in the US](Analysis_of_Data_Roles\Plots\3_Boxplot_distribution_of_salaries_by_role.png)
+![Salary Distributions of Data Jobs in the US](Plots\3_Boxplot_distribution_of_salaries_by_role.png)
 
 ### Insights
 - There is a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the the high value placed on advanced data skills and experience in the industry.
@@ -184,7 +184,7 @@ fig.tight_layout()
 plt.show()
 ```
 ### Results
-![The Highest Paid & Most Demanded Skills for Data Analysts in the US](Analysis_of_Data_Roles\Plots\4_Highest_paid_and_most_in_demand_skills.png)
+![The Highest Paid & Most Demanded Skills for Data Analysts in the US](Plots\4_Highest_paid_and_most_in_demand_skills.png)
 
 ### Insights
 - The top graph shows specialized technical skills like 'dplyr', `Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200k, suggesting that advanced technical proficiency can increase earning potential.
@@ -236,7 +236,7 @@ plt.tight_layout()
 plt.show()
 ```
 ### Results
-![Most Optimal Skills for Data Analyts in the US](Analysis_of_Data_Roles\Plots\5_Most_optimal_skills_for_DAs.png)
+![Most Optimal Skills for Data Analyts in the US](Plots\5_Most_optimal_skills_for_DAs.png)
 
 #### Insights
 - The scatter plot shows that most of the `programming` skills (coloured blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the analytical field.
